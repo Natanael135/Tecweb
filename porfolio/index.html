@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <title>Natanael Melo | Portfólio</title>
+    <style>
+      :root {
+        --primary: #2e86ab;
+        --secondary: #1b5299;
+        --text: #333333;
+        --lightText: #666666;
+        --background: #ffffff;
+        --surface: #f5f9ff;
+        --primary-hover: #2e86ab50;
+      }
+
+      * {
+        list-style: none;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: var(--background);
+        color: var(--text);
+        font-family: "Poppins", sans-serif;
+      }
+
+      p {
+        color: var(--lightText);
+      }
+      h1 {
+        color: var(--secondary);
+      }
+
+      .highlight {
+        color: var(--primary);
+      }
+
+      .btn {
+        background-color: var(--primary);
+        color: var(--background);
+        border: 2px solid var(--primary);
+        text-decoration: none;
+      }
+
+      .btn:hover {
+        background-color: var(--secondary);
+        color: var(--background);
+      }
+
+      .foto-perfil {
+        border-radius: 50%;
+        border: 4px solid var(--primary);
+        width: 150px;
+      }
+
+      #habilidades li:hover {
+        background-color: var(--primary-hover);
+      }
+
+      #experiencia strong {
+        color: var(--secondary);
+      }
+
+      section {
+        background-color: var(--background);
+      }
+
+      article {
+        background-color: var(--surface);
+        padding: 10px;
+        box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+        margin-top: 20px;
+        transition: 0.3s;
+      }
+      article:hover {
+        transform: translateY(-10px);
+        transition: 0.3s;
+      }
+
+      footer {
+        background-color: var(--background);
+        color: var(--lightText);
+      }
+
+      a {
+        color: var(--secondary);
+      }
+
+      a:hover {
+        color: var(--primary);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>&lt;Natanael Melo/&gt;</h1>
+      <nav aria-label="Navegação principal">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#experiencia">Experiência</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <img src="foto.jpeg" alt="Foto de Natanael Melo" class="foto-perfil" />
+        <h2 class="highlight">Full Stack Developer</h2>
+        <p>
+          Desenvolvedor Web com lógica de programação sólida e experiência
+          prática em HTML, CSS, JavaScript, React.js, Styled Components,
+          TypeScript, Next.js e Node.js. Vivência com consumo e desenvolvimento
+          de APIs REST, além de conhecimento em bancos de dados relacionais e
+          não relacionais, como MySQL, PostgreSQL e MongoDB. Familiaridade com
+          estruturas de dados, algoritmos e versionamento de código utilizando
+          Git e GitHub. Possuo habilidades interpessoais desenvolvidas, com
+          destaque para trabalho em equipe, liderança, resolução de problemas,
+          proatividade, comunicação eficaz e adaptabilidade.
+        </p>
+        <h3>Principais Tecnologias:</h3>
+        <ul>
+          <li>JavaScript</li>
+          <li>React.js</li>
+          <li>Node.js</li>
+          <li>React Native</li>
+          <li>TypeScript</li>
+        </ul>
+      </section>
+
+      <section id="habilidades">
+        <h2 class="highlight">Skills</h2>
+        <p>
+          Combinando habilidades técnicas com soft skills para criar
+          experiências web excepcionais.
+        </p>
+
+        <article>
+          <h3>Habilidades Técnicas</h3>
+          <ul>
+            <li><strong>JavaScript:</strong> Interatividade & DOM</li>
+            <li><strong>React.js:</strong> Interfaces dinâmicas</li>
+            <li><strong>Node.js:</strong> Backend com JavaScript</li>
+            <li>
+              <strong>React Native:</strong> Aplicativos mobile multiplataforma
+            </li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Ferramentas</h3>
+          <ul>
+            <li><strong>Git:</strong> Controle de versão</li>
+            <li><strong>GitHub:</strong> Colaboração & Deploy</li>
+            <li><strong>Figma:</strong> Design & Prototipagem</li>
+            <li><strong>Vercel:</strong> Deploy & Hosting</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Soft Skills</h3>
+          <ul>
+            <li><strong>Criatividade:</strong> Soluções inovadoras</li>
+            <li><strong>Comunicação:</strong> Clara e efetiva</li>
+            <li><strong>Proatividade:</strong> Iniciativa constante</li>
+            <li><strong>Organização:</strong> Gestão eficiente</li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="experiencia">
+        <h2 class="highlight">Experiências</h2>
+        <article>
+          <h3>Desenvolvedor React-Native Freelance</h3>
+          <p><strong>iFestify</strong> — Maio/2025 – Atualmente</p>
+          <ul>
+            <li>Em breve</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Desenvolvedor Front-end Júnior</h3>
+          <p><strong>Forja</strong> — Fev/2024 – Presente</p>
+          <ul>
+            <li>Em breve</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Desenvolvedor Front-end Voluntário</h3>
+          <p><strong>ONG Recomeçando</strong> — Jan/2024 – Presente</p>
+          <ul>
+            <li>Em breve</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Desenvolvedor Front-End Freelance</h3>
+          <p><strong>iFestify</strong> — Nov/2024 – Dez/2024</p>
+          <ul>
+            <li>Landing Page responsiva e otimizada</li>
+            <li>Rotas para navegação fluida</li>
+            <li>SEO para melhor ranqueamento</li>
+            <li>HTML, CSS, JS, React.js, Styled Components</li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="educacao">
+        <h2 class="highlight">Educação</h2>
+
+        <article>
+          <h3>Engenharia da Computação</h3>
+          <p>Universidade Federal do Ceará — Ago/2021 – Presente</p>
+          <ul>
+            <li>Em breve</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Desenvolvimento Full Stack</h3>
+          <p>
+            Capacita Brasil | UECE | Instituto Atlântico — Jul/2024 – Atualmente
+          </p>
+          <ul>
+            <li>
+              Tecnologias: HTML, CSS, Git, JS, React.js, SQL, Node.js, APIs
+            </li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Desenvolvimento Full Stack</h3>
+          <p>Geração Tech | Digital College | ADECE — Out/2024 – Jan/2025</p>
+          <ul>
+            <li>
+              Tecnologias: HTML, CSS, GitHub, React, Node.js, Express.js,
+              Cypress
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section id="projetos">
+        <h2 class="highlight">Meus Projetos</h2>
+
+        <article>
+          <h3>Horário das Topiques</h3>
+          <p>
+            Aplicação para consulta de horários de transportes alternativos em
+            Sobral-CE.
+          </p>
+          <p>
+            <strong>Tecnologias:</strong> JavaScript, React.js, Node.js,
+            MongoDB, Styled Components
+          </p>
+          <a
+            class="btn"
+            href="https://topicmorrinhos.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Live Demo</a
+          >
+        </article>
+
+        <article>
+          <h3>AJ Representante</h3>
+          <p>
+            Catálogo online para apresentação de produtos — e-commerce leve e
+            responsivo.
+          </p>
+          <p>
+            <strong>Tecnologias:</strong> HTML, CSS, JS, React.js, Styled
+            Components, Node.js, MongoDB
+          </p>
+          <a
+            class="btn"
+            href="https://toinho-representante.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Live Demo</a
+          >
+        </article>
+
+        <article>
+          <h3>To-Do List</h3>
+          <p>Gerenciador de tarefas pessoal com interface intuitiva.</p>
+          <p>
+            <strong>Tecnologias:</strong> HTML, CSS, JS, React.js, Styled
+            Components, Vercel
+          </p>
+          <a
+            class="btn"
+            href="https://to-do-list-tau-pied-66.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Live Demo</a
+          >
+        </article>
+      </section>
+
+      <section id="contato">
+        <h2>Vamos trabalhar juntos?</h2>
+        <p>Entre em contato!</p>
+        <ul>
+          <li>
+            <a
+              href="https://wa.me/5588996559305"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              WhatsApp
+            </a>
+          </li>
+          <li>
+            <a href="mailto:natanaelmelo.dev@gmail.com"> Email </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 - by Natanael Melo.</p>
+    </footer>
+  </body>
+</html>
