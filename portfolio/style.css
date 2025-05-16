@@ -1,0 +1,86 @@
+:root {
+  --primary: #2e86ab;
+  --secondary: #1b5299;
+  --text: #333333;
+  --lightText: #666666;
+  --background: #ffffff;
+  --surface: #f5f9ff;
+  --primary-hover: #2e86ab50;
+}
+
+* {
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  color: var(--lightText);
+}
+h1 {
+  color: var(--secondary);
+}
+
+.highlight {
+  color: var(--primary);
+}
+
+.btn {
+  background-color: var(--primary);
+  color: var(--background);
+  border: 2px solid var(--primary);
+}
+
+.btn:hover {
+  background-color: var(--secondary);
+  color: var(--background);
+}
+
+.foto-perfil {
+  border-radius: 50%;
+  border: 4px solid var(--primary);
+  width: 150px;
+}
+
+#habilidades li:hover {
+  background-color: var(--primary-hover);
+}
+
+#experiencia strong {
+  color: var(--secondary);
+}
+
+section {
+  background-color: var(--background);
+}
+
+article {
+  background-color: var(--surface);
+  padding: 10px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  transition: 0.3s;
+}
+article:hover {
+  transform: translateY(-10px);
+  transition: 0.3s;
+}
+
+footer {
+  background-color: var(--background);
+  color: var(--lightText);
+}
+
+a {
+  color: var(--secondary);
+}
+
+a:hover {
+  color: var(--primary);
+}

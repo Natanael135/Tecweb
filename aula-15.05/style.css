@@ -1,0 +1,19 @@
+p {
+  color: blue;
+}
+.destaque {
+  color: red;
+  font-weight: bold;
+}
+#titulo-principal {
+  color: green;
+  text-transform: uppercase;
+}
+p.destaque {
+  color: violet;
+}
+
+#info p {
+  color: #e20a0a70;
+  font-size: 3rem;
+}
