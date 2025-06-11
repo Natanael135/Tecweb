@@ -1,0 +1,61 @@
+:root {
+  --fundo: #ffffff;
+  --titulo-principal: #1f1235;
+  --subtitulo: #1b1425;
+  --botao: #ff6e6c;
+  --texto-botao: #1f1235;
+  --borda-ilustracao: #1f1235;
+  --principal: #ffffff;
+  --destaque: #ff6e6c;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background-color: var(--fundo);
+  color: var(--subtitulo);
+}
+
+.painel {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: var(--principal);
+  border: 2px solid var(--borda-ilustracao);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.headline {
+  color: var(--titulo-principal);
+}
+
+button {
+  background-color: var(--botao);
+  color: var(--texto-botao);
+  border: none;
+  padding: 10px 15px;
+  margin: 10px 0;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--destaque);
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  max-width: 300px;
+  margin: 15px 0;
+}

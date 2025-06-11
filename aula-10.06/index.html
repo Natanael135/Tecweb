@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Painel Informativo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="painel">
+      <h1 class="headline">Painel do Aluno</h1>
+
+      <button onclick="trocarMensagem()">Trocar Mensagem</button>
+      <p id="mensagem">Mensagem inicial</p>
+      <div class="image-container">
+        <img id="imagem" src="./image1.png" alt="Imagem atual" />
+        <button onclick="trocarImagem()">Trocar Imagem</button>
+      </div>
+      <button onclick="alternarParagrafo()">Mostrar/Ocultar Parágrafo</button>
+      <p id="paragrafoToggle">Este é um parágrafo que pode ser escondido.</p>
+
+      <button id="botaoTexto" onclick="alterarTextoBotao()">
+        Clique para mudar o texto
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
